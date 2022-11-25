@@ -1,0 +1,205 @@
+#wrap {
+    width: 100%;
+}
+
+
+
+/*상단&메인*/
+
+#main {
+    width: 100%;
+    height: 1000px;
+    background-color: paleturquoise;
+}
+
+#main_in {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    background: url(../image/pexels-pixabay-41949.jpg) 70% 10px no-repeat;
+}
+
+#header {
+    width: 100%;
+    height: 120px;
+    background-color: #0D2060;
+}
+
+#header .logo {
+    margin-top: 20px;
+    margin-left: 100px;
+    float: left;
+    width: 200px;
+    height: 80px;
+    background-color: pink;
+}
+
+#header .logo img {
+    width: 100%;
+}
+
+#header .nav {
+    margin: 60px 0 0 150px;
+    float: left;
+    width: 700px;
+    height: 30px;
+}
+
+#header .nav li {
+    float: left;
+    margin-right: 80px;
+}
+
+#header .nav li a {
+    font-size: 25px;
+    color: white;
+}
+
+
+#header .info {
+    margin-top: 60px;
+    float: right;
+    width: 300px;
+    height: 80px;
+}
+
+#header .info li {
+    float: left;
+    margin-right: 50px;
+}
+
+#header .info li a {
+    font-size: 20px;
+    color: white;
+}
+
+#main_in .box {
+    position: absolute;
+    top: 500px;
+    left: 0;
+    width: 1000px;
+    height: 400px;
+    background-color: #D1D0CE;
+    opacity: 0.5;
+}
+
+#main_in .boxin {
+    position: absolute;
+    top: 550px;
+    left: 150px;
+    width: 700px;
+    height: 300px;
+}
+
+#main_in .boxin span {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+#main_in .boxin p {
+    margin-top: 40px;
+    width: 650px;
+    height: 100px;
+    font-size: 18px;
+    line-height: 50px;
+    color: white;
+}
+
+
+
+
+
+
+/*사업분야*/
+#business {
+    margin-top: 100px;
+    width: 100%;
+    height: 1000px;
+    background-color: thistle;
+}
+
+#business_h {
+    width: 100%;
+    height: 120px;
+}
+
+#business_h h2 {
+    text-align: center;
+    font-size: 80px;
+}
+
+#business_b {
+    width: 1300px;
+    height: 880px;
+    margin: 0 auto;
+    background-color: palegreen;
+}
+
+#business_b .in {
+    width: 100%;
+}
+
+#business_b .in li {
+    float: left;
+    width: 600px;
+    height: 380px;
+}
+
+
+
+
+
+/*에너지이야기*/
+#about {
+    width: 100%;
+    height: 1000px;
+    background-color: slateblue;
+}
+
+#about .in {
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+
+#about .in img {
+    margin: 50px 0 50px 0;
+    width: 100%;
+    height: 900px;
+}
+
+#about .in .data {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+#about .in .data h2 {}
+
+
+
+
+
+/*뉴스*/
+#contents {
+    width: 100%;
+    height: 1000px;
+    background-color: lightsalmon;
+}
+
+
+
+
+/*하단*/
+#footer {
+    width: 100%;
+    height: 300px;
+    background-color: #0D2060;
+}
+
+#footer_in {
+    margin: 0 auto;
+    width: 1300px;
+    height: 300px;
+    background-color: yellowgreen;
+}
