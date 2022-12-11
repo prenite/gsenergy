@@ -1,0 +1,108 @@
+
+
+#main_in {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(../image/earth-2581631.jpg) 50% 35% no-repeat;
+}
+
+#main_in .box {
+    display: none;
+}
+
+#main_in .boxin {
+    display: none;
+}
+
+
+
+
+
+#header {
+    position: relative;
+    width: 100%;
+    height: 6.25vw; 
+    background-color: #0D2060;
+    opacity: 0.7;
+}
+
+#header_in {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6.25vw;
+}
+
+#header_in .logo {
+    margin-top: 2vw;
+    margin-left: 5.2vw;
+    float: left;
+    width: 10vw;
+    height: 3.1vw;
+}
+
+#header_in .logo img {
+    width: 100%;
+}
+
+#header_in .nav {
+    margin: 3.1vw 0 0 7.8vw;
+    float: left;
+    width: 36.4vw;
+    height: 30px;
+}
+
+#header_in .nav li {
+    float: left;
+    margin-right: 4.1vw;
+}
+
+#header_in .nav li a {
+    font-size: 1.3vw;
+    color: white;
+}
+
+
+#header_in .info {
+    margin-top: 3.1vw;
+    float: right;
+    width: 15.6vw;
+    height: 80px;
+}
+
+#header_in .info li {
+    float: left;
+    margin-right: 2.6vw;
+}
+
+#header_in .info li a {
+    font-size: 1.2vw;
+    color: white;
+}
+
+
+#header_in .group {
+    display: block;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(135, 135, 25);
+}
+
+#header_in .btn_m {
+    display: block;
+    margin: 0 auto;
+    margin-top: 17px;
+    width: 50px;
+    height: 50px;
+}
+
+#header_in .btn_m span {
+    display: block;
+    width: 100%;
+    height: 8px;
+    margin-bottom: 8px;
+    background-color: #fff;
+    border-radius: 4px;
+}

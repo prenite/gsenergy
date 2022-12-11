@@ -1,0 +1,274 @@
+#wrap {
+    width: 100%;
+}
+
+
+
+/*상단*/
+
+#header {
+    width: 100%;
+    height: 120px;
+}
+
+#header .logo {
+    margin-top: 40px;
+    margin-left: 100px;
+    float: left;
+    width: 10.5vw;
+    height: 80px;
+}
+
+#header .logo img {
+    width: 100%;
+}
+
+#header .nav {
+    margin: 60px 0 0 7.8vw;
+    float: left;
+    width: 36.4vw;
+    height: 30px;
+}
+
+#header .nav li {
+    float: left;
+    margin-right: 4.1vw;
+}
+
+#header .nav li a {
+    font-size: 1.3vw;
+    color: #333;
+}
+
+
+#header .info {
+    margin-top: 60px;
+    float: right;
+    width: 300px;
+    height: 80px;
+}
+
+#header .info li {
+    float: left;
+    margin-right: 50px;
+}
+
+#header .info li a {
+    font-size: 1.2vw;
+    color: #333;
+}
+
+
+
+#contents {
+    margin: 0 auto;
+    width: 1300px;
+    height: 3300px;
+}
+
+
+
+
+
+/*회사소개*/
+#con1 {
+    width: 100%;
+    height: 2000px;
+}
+
+#con1 .head {
+    width: 100%;
+    height: 230px;
+    text-align: center;
+}
+
+#con1 .head h2 {
+    padding-top: 130px;
+    font-size: 50px;
+}
+
+#con1 .banner {
+    width: 100%;
+    height: 430px;
+}
+
+#con1 .imgbox {
+    float: right;
+    width: 690px;
+    height: 270px;
+}
+
+#con1 .imgbox>div {
+    margin-left: 100px;
+    width: 570px;
+    height: 177px;
+}
+
+#con1 .imgbox>div img {
+    width: 100%;
+}
+
+#con1 .imgbox h3 {
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 60px;
+    color: #019578;
+}
+
+#con1 .body {
+    width: 100%;
+    height: 1400px;
+}
+
+#con1 .body div {
+    margin-bottom: 100px;
+    width: 100%;
+    height: 360px;
+}
+
+#con1 .body li {
+    float: left;
+    width: 50%;
+    height: 360px;
+}
+
+#con1 .body li img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#con1 .body .box1 {
+    padding: 5% 6%;
+}
+
+#con1 .body .box2 {
+    padding: 5% 6%;
+}
+
+#con1 .body .box3 {
+    padding: 5% 6%;
+}
+
+#con1 .body li h4 {
+    font-size: 40px;
+    color: #0D2060;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+#con1 .body li p {
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+
+
+/*연혁*/
+
+#con2 {
+    width: 100%;
+    height: 120vh;
+}
+
+#con2 .area_h {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+#con2 .area_h h2 {
+    padding-top: 150px;
+    font-size: 60px;
+}
+
+#con2 .area {
+    margin: 0 auto;
+    width: 65%;
+    height: 900px;
+    background-color: #aabfca;
+    padding: 10% 10%;
+}
+
+#con2 .area p {
+    font-size: 18px;
+}
+
+
+/*하단*/
+#footer {
+    width: 100%;
+    height: 400px;
+    background-color: #0D2060;
+}
+
+#footer_in {
+    margin: 0 auto;
+    width: 1300px;
+    height: 400px;
+}
+
+#footer_h {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #D1D0CE;
+}
+
+#footer_h .info {
+    width: 500px;
+
+}
+
+#footer_h li {
+    float: left;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+#footer_h li a {
+    font-size: 20px;
+    color: white;
+}
+
+#footer_h .site {
+    float: right;
+    margin-top: 40px;
+}
+
+#footer_h .site a {
+    font-size: 23px;
+    color: white;
+}
+
+
+#footer_b .address {
+    float: left;
+    width: 700px;
+    height: 250px;
+}
+
+#footer_b .address address {
+    margin-top: 40px;
+    font-size: 18px;
+    color: white;
+    line-height: 40px;
+}
+
+#footer_b .address p {
+    margin-top: 50px;
+    font-size: 16px;
+    color: white;
+}
+
+#footer_b .logo {
+    margin-top: 80px;
+    float: right;
+    width: 240px;
+    height: 100px;
+}
+
+#footer_b img {
+    width: 100%;
+}

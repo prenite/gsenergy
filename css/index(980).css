@@ -1,0 +1,329 @@
+/*상단&메인*/
+
+#main_in {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url(../image/pexels-pixabay-41949.jpg) 80% 30% no-repeat;
+}
+
+#main_in .box {
+    display: none;
+}
+
+#main_in .boxin {
+    display: none;
+}
+
+
+
+/*사업분야*/
+
+#business_h {
+    width: 100%;
+    height: 6.25vw;
+}
+
+#business_h h2 {
+    padding-top: 2.6vw;
+    text-align: center;
+    font-size: 2.3vw;
+}
+
+
+
+/*에너지이야기*/
+
+#about .in .data h2 {
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+#about .in .data li {
+    float: left;
+    width: 26%;
+    height: 200px;
+    margin-right: 2%;
+}
+
+
+
+
+
+
+
+/*뉴스*/
+#contents {
+    width: 100%;
+    height: 110vh;
+}
+
+#contents .conh {
+    width: 100%;
+    height: 18vw;
+}
+
+#contents .conh h2 {
+    padding-top: 11vw;
+    text-align: center;
+    font-size: 2.3vw;
+    color: black;
+}
+
+#contents .conb {
+    width: 100%;
+    height: 48vw;
+    background-color: #c3cef1;
+}
+
+#contents .news {
+    padding-top: 2vw;
+    margin: 0 auto;
+    width: 85%;
+    height: 32vw;
+}
+
+#contents .news ul {
+    margin-top: 2.6vw;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#contents .news li {
+    float: left;
+    width: 24.5%;
+    height: 20.8vw;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+
+#contents .news li div {
+    width: 100%;
+    height: 100%;
+    padding: 4vw 4vw;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+
+#contents .news li h3 {
+    font-size: 1.2vw;
+}
+
+#contents .news li p {
+    display: none;
+}
+
+#contents .news li span {
+    font-size: 0.9vw;
+}
+
+
+#contents .area {
+    margin: 0 auto;
+    width: 300px;
+    height: 100px;
+}
+
+
+#contents .area button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+button.btn {
+    width: 100%;
+    height: auto;
+}
+
+button.btn .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 60px;
+    height: 60px;
+    background: #0D2060;
+    border-radius: 30px;
+}
+
+button.btn .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+}
+
+button.btn .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 11px;
+    /*0.625*/
+    width: 17px;
+    /*1.125rem*/
+    height: 0.125rem;
+    background: none;
+}
+
+button.btn .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -5px;
+    /*-0.27rem*/
+    right: -3px;
+    /*0.01*/
+    width: 12px;
+    /*0.625rem*/
+    height: 12px;
+    /*0.625rem*/
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+}
+
+button.btn .button {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px 0;
+    margin: 0 0 0 25px;
+    color: #0D2060;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button:hover .circle {
+    width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+}
+
+button:hover .button {
+    color: #fff;
+}
+
+
+
+
+/*인포*/
+
+#info {
+    width: 100%;
+    height: 100vh;
+}
+
+
+#info_in {
+    margin: 0 auto;
+    width: 70%;
+    height: 100vh;
+}
+
+#info_in>div {
+    margin-top: 0;
+    height: 100vh;
+}
+
+
+#info_in li {
+    margin: 0 auto;
+    width: 100%;
+    height: 40vw;
+    position: relative;
+}
+
+#info_in .contact img {
+    width: 100%;
+    filter: brightness(1);
+}
+
+#info_in .contact .btn1 {
+    position: absolute;
+    top: 10vw;
+    left: 0;
+    width: 100%;
+    height: 40vw;
+    background-color: transparent;
+    display: none;
+}
+
+
+#info_in .btn1 p {
+    float: right;
+    padding: 10% 10%;
+    font-size: 3.6vw;
+    color: #fff;
+    font-weight: 600;
+}
+
+#info_in .employ img {
+    width: 100%;
+    filter: brightness(1);
+}
+
+#info_in .employ .btn2 {
+    position: absolute;
+    top: 10vw;
+    left: 0;
+    width: 100%;
+    height: 40vw;
+    background-color: transparent;
+    display: none;
+}
+
+#info_in .btn2 p {
+    float: right;
+    padding: 4.1vw 5vw;
+    font-size: 3.6vw;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+#info_in .contact img:hover {
+    width: 100%;
+    transition: all 0.4s;
+    filter: brightness(0.5);
+}
+
+
+#info_in .employ img:hover {
+    width: 100%;
+    transition: all 0.3s;
+    filter: brightness(0.5);
+}
+
+
+
+
+
+/*하단*/
+
+#footer_in {
+    margin: 0 auto;
+    width: 95%;
+    height: 400px;
+}

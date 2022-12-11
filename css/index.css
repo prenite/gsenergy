@@ -19,89 +19,104 @@
 }
 
 #header {
+    position: relative;
     width: 100%;
-    height: 120px;
+    height: 6.25vw; 
     background-color: #0D2060;
     opacity: 0.7;
 }
 
-#header .logo {
-    margin-top: 20px;
-    margin-left: 100px;
-    float: left;
-    width: 200px;
-    height: 80px;
-    background-color: pink;
+#header_in {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6.25vw;
 }
 
-#header .logo img {
+#header_in .logo {
+    margin-top: 2vw;
+    margin-left: 5.2vw;
+    float: left;
+    width: 10vw;
+    height: 3.1vw;
+}
+
+#header_in .logo img {
     width: 100%;
 }
 
-#header .nav {
-    margin: 60px 0 0 150px;
+#header_in .nav {
+    margin: 3.1vw 0 0 7.8vw;
     float: left;
-    width: 700px;
+    width: 39vw;
     height: 30px;
 }
 
-#header .nav li {
+#header_in .nav li {
     float: left;
-    margin-right: 80px;
+    margin-right: 4.1vw;
 }
 
-#header .nav li a {
-    font-size: 25px;
+#header_in .nav li a {
+    font-size: 1.3vw;
     color: white;
 }
 
 
-#header .info {
-    margin-top: 60px;
+#header_in .info {
+    margin-top: 3.1vw;
     float: right;
-    width: 300px;
+    width: 17vw;
     height: 80px;
 }
 
-#header .info li {
+#header_in .info li {
     float: left;
-    margin-right: 50px;
+    margin-right: 2.6vw;
 }
 
-#header .info li a {
-    font-size: 20px;
+#header_in .info li a {
+    font-size: 1.2vw;
     color: white;
 }
 
+#header_in .group{
+    display: none;
+}
+
+
 #main_in .box {
     position: absolute;
-    top: 500px;
-    left: 0;
-    width: 1000px;
-    height: 400px;
+    top: 26vw;
+    left: 25%;
+    width: 48vw;
+    height: 20vw;
     background-color: #D1D0CE;
     opacity: 0.5;
 }
 
 #main_in .boxin {
     position: absolute;
-    top: 550px;
-    left: 150px;
-    width: 700px;
-    height: 300px;
+    top: 28.64vw;
+    left: 30%;
+    width: 38vw;
+    height: 19vw;
 }
 
 #main_in .boxin span {
-    font-size: 60px;
+    font-size: 3.1vw;
+    /*60*/
     font-weight: 600;
 }
 
 #main_in .boxin p {
-    margin-top: 40px;
-    width: 650px;
-    height: 100px;
-    font-size: 18px;
-    line-height: 50px;
+    margin-top: 2vw;
+    width: 35vw;
+    /*650*/
+    height: 10vh;
+    font-size: 1vw;
+    line-height: 2.6vw;
     color: white;
 }
 
@@ -112,9 +127,9 @@
 
 /*사업분야*/
 #business {
-    margin-top: 5%;
+    margin-top: 5.2vw;
     width: 100%;
-    height: 100vh;
+    height: 65vw;
 }
 
 #business_h {
@@ -123,39 +138,46 @@
 }
 
 #business_h h2 {
+    padding-top: 50px;
     text-align: center;
-    font-size: 65px;
+    font-size: 45px;
 }
 
 #business_b {
-    width: 1300px;
-    height: 880px;
+    width: 62.5vw;
+    /*1200px*/
+    height: 45vw;
     margin: 0 auto;
 }
 
 #business_b .in {
     padding-top: 60px;
-    margin: 0 auto;
-    width: 1200px;
+    width: 100%;
 }
 
 #business_b .in li {
     float: left;
-    width: 600px;
-    height: 380px;
+    width: 50%;
+    height: 20vw; /*380*/
     position: relative;
 }
 
 #business_b .in li img {
     width: 100%;
     height: 100%;
+    filter: brightness(1);
+}
+
+#business_b .in li img:hover {
+    transition: all 0.4s;
+    filter: brightness(0.4);
 }
 
 #business_b .in li h3 {
     position: absolute;
     top: 30px;
     left: 30px;
-    font-size: 30px;
+    font-size: 1.5vw;
     color: white;
 }
 
@@ -163,7 +185,7 @@
     position: absolute;
     top: 80px;
     left: 30px;
-    font-size: 25px;
+    font-size: 1.3vw;
     color: white;
 }
 
@@ -178,9 +200,8 @@
 }
 
 #about .in {
-    margin: 50px 0 50px 0;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     position: relative;
 }
 
@@ -211,7 +232,7 @@
     width: 100%;
     height: 40%;
     text-align: center;
-    font-size: 60px;
+    font-size: 45px;
     color: white;
 }
 
@@ -223,30 +244,31 @@
 
 #about .in .data li {
     float: left;
-    width: 28%;
+    width: 26%;
     height: 250px;
-    margin-right: 1.5%;
+    margin-right: 2%;
 }
 
-#about .in .data li:last-child{
+#about .in .data li:last-child {
     margin-right: 0;
 }
 
+
 #about .in .data .txtbox {
     width: 100%;
-    height: 80px;
+    height: 4.16vw; 
     border-bottom: 4px solid white;
 }
 
 #about .in .data .txtbox h4 {
     margin-top: 30px;
-    font-size: 35px;
+    font-size: 1.6vw;
 }
 
 
 #about .in .data li p {
     margin-top: 30px;
-    font-size: 40px;
+    font-size: 1.8vw;
 }
 
 
@@ -258,46 +280,173 @@
 /*뉴스*/
 #contents {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
 }
 
-#contents .conh{
+#contents .conh {
     width: 100%;
     height: 200px;
 }
 
-#contents .conh h2{
-    padding-top: 100px;
+#contents .conh h2 {
+    padding-top: 120px;
     text-align: center;
-    font-size: 70px;
-    color: black; 
+    font-size: 45px;
+    color: black;
 }
 
 #contents .conb {
     width: 100%;
-    height: 600px;
+    height: 650px;
     background-color: #c3cef1;
 }
 
-#contents .news{
-    padding-top: 100px;
+#contents .news {
+    padding-top: 50px;
     margin: 0 auto;
-    width: 1300px;
-    height: 500px;
+    width: 85%;
+    height: 550px;
 }
 
-#contents .news ul{
+#contents .news ul {
     margin-top: 50px;
-    margin-left: 5px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
 
-#contents .news li{
+#contents .news li {
     float: left;
-    width: 300px;
+    width: 24.5%;
     height: 400px;
     background-color: white;
-    margin-right: 5px;
+    border: 1px solid #ccc;
 }
+
+
+#contents .news li div {
+    width: 100%;
+    height: 100%;
+    padding: 50px 40px;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+
+#contents .news li h3 {
+    font-size: 1.2vw;
+}
+
+#contents .news li p {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.9vw;
+    color: rgb(92, 104, 116);
+    font-weight: 500;
+}
+
+#contents .news li span {
+    font-size: 0.9vw;
+}
+
+
+#contents .area {
+    margin: 0 auto;
+    width: 300px;
+    height: 100px;
+}
+
+
+#contents .area button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+button.btn {
+    width: 100%;
+    height: auto;
+}
+
+button.btn .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 60px;
+    height: 60px;
+    background: #0D2060;
+    border-radius: 30px;
+}
+
+button.btn .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+}
+
+button.btn .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 11px;
+    width: 17px;
+    height: 0.125rem;
+    background: none;
+}
+
+button.btn .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -5px;
+    right: -3px;
+    width: 12px;
+    height: 12px;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+}
+
+button.btn .button {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px 0;
+    margin: 0 0 0 25px;
+    color: #0D2060;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button:hover .circle {
+    width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+}
+
+button:hover .button {
+    color: #fff;
+}
+
 
 
 
@@ -309,12 +458,83 @@
 #info {
     width: 100%;
     height: 100vh;
-    background-color: lightsalmon;
 }
 
-#info_in{
+#info_in {
     width: 100%;
+    height: 80vh;
+}
 
+#info_in>div {
+    margin-top: 30%;
+}
+
+#info_in li {
+    float: left;
+    width: 50%;
+    height: 530px;
+    position: relative;
+}
+
+#info_in .contact img {
+    width: 100%;
+    filter: brightness(1);
+}
+
+#info_in .contact .btn1 {
+    position: absolute;
+    top: 16vw;
+    left: 50%;
+    width: 50%;
+    height: 15vw;
+    background-color: #0F0E30;
+    opacity: 0.9;
+}
+
+
+#info_in .btn1 p {
+    float: right;
+    padding: 4.1vw 6vw;
+    font-size: 2vw;
+    color: #fff;
+    font-weight: 600;
+}
+
+#info_in .employ img {
+    width: 100%;
+    filter: brightness(1);
+}
+
+#info_in .employ .btn2 {
+    position: absolute;
+    top: 16vw;
+    left: 50%;
+    width: 50%;
+    height: 15vw;
+    background-color: #0F0E30;
+    opacity: 0.9;
+}
+
+#info_in .btn2 p {
+    float: right;
+    padding: 4.1vw 5vw;
+    font-size: 2vw;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+#info_in .contact img:hover {
+    width: 100%;
+    transition: all 0.4s;
+    filter: brightness(0.5);
+}
+
+
+#info_in .employ img:hover {
+    width: 100%;
+    transition: all 0.3s;
+    filter: brightness(0.5);
 }
 
 
@@ -324,13 +544,75 @@
 /*하단*/
 #footer {
     width: 100%;
-    height: 300px;
+    height: 400px;
     background-color: #0D2060;
 }
 
 #footer_in {
     margin: 0 auto;
-    width: 1300px;
-    height: 300px;
-    background-color: yellowgreen;
+    width: 1200px;
+    height: 400px;
+}
+
+#footer_h {
+    width: 100%;
+    height: 100px;
+    border-bottom: 1px solid #D1D0CE;
+}
+
+#footer_h .info {
+    width: 26vw;
+
+}
+
+#footer_h li {
+    float: left;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+#footer_h li a {
+    font-size: 1vw;
+    color: white;
+}
+
+#footer_h .site {
+    float: right;
+    margin-top: 40px;
+}
+
+#footer_h .site a {
+    font-size: 1.19vw;
+    color: white;
+}
+
+
+#footer_b .address {
+    float: left;
+    width: 36.4vw;
+    height: 250px;
+}
+
+#footer_b .address address {
+    margin-top: 40px;
+    font-size: 0.9vw;
+    color: white;
+    line-height: 40px;
+}
+
+#footer_b .address p {
+    margin-top: 50px;
+    font-size: 0.83vw;
+    color: white;
+}
+
+#footer_b .logo {
+    margin-top: 80px;
+    float: right;
+    width: 12.5vw;
+    height: 100px;
+}
+
+#footer_b img {
+    width: 100%;
 }
