@@ -1,3 +1,4 @@
+/*상단&메인*/
 
 
 #main_in {
@@ -16,13 +17,10 @@
 }
 
 
-
-
-
 #header {
     position: relative;
     width: 100%;
-    height: 6.25vw; 
+    height: 80px;
     background-color: #0D2060;
     opacity: 0.7;
 }
@@ -32,15 +30,15 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 6.25vw;
+    height: 80px;
 }
 
 #header_in .logo {
-    margin-top: 2vw;
+    margin-top: 3vw;
     margin-left: 5.2vw;
     float: left;
-    width: 10vw;
-    height: 3.1vw;
+    width: 100px;
+    height: 60px;
 }
 
 #header_in .logo img {
@@ -48,49 +46,24 @@
 }
 
 #header_in .nav {
-    margin: 3.1vw 0 0 7.8vw;
-    float: left;
-    width: 36.4vw;
-    height: 30px;
-}
-
-#header_in .nav li {
-    float: left;
-    margin-right: 4.1vw;
-}
-
-#header_in .nav li a {
-    font-size: 1.3vw;
-    color: white;
+    display: none;
 }
 
 
 #header_in .info {
-    margin-top: 3.1vw;
-    float: right;
-    width: 15.6vw;
-    height: 80px;
+    display: none;
 }
 
-#header_in .info li {
-    float: left;
-    margin-right: 2.6vw;
-}
-
-#header_in .info li a {
-    font-size: 1.2vw;
-    color: white;
-}
 
 
 #header_in .group {
+    float: right;
     display: block;
     width: 80px;
     height: 80px;
-    background-color: rgb(135, 135, 25);
 }
 
-#header_in .btn_m {
+#header_in .btn {
     display: block;
     margin: 0 auto;
     margin-top: 17px;
@@ -98,11 +71,408 @@
     height: 50px;
 }
 
-#header_in .btn_m span {
+#header_in .btn span {
     display: block;
     width: 100%;
     height: 8px;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     background-color: #fff;
     border-radius: 4px;
+}
+
+
+
+
+/*사업분야*/
+
+
+#business {
+    width: 100%;
+    height: 1200px;
+}
+
+#business_h {
+    width: 100%;
+    height: 100px;
+}
+
+#business_h h2 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#business_b {
+    width: 80%;
+    height: 1100px;
+    margin: 0 auto;
+}
+
+#business_b .in {
+    padding-top: 40px;
+    width: 100%;
+}
+
+#business_b .in li {
+    float: left;
+    width: 100%;
+    height: 220px;
+    /*380*/
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#business_b .in li img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(1);
+}
+
+#business_b .in li img:hover {
+    transition: all 0.4s;
+    filter: brightness(0.4);
+}
+
+#business_b .in li h3 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+#business_b .in li p {
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    font-size: 18px;
+    color: white;
+}
+
+
+
+
+
+/*에너지이야기*/
+
+#about {
+    width: 100%;
+    height: 400px;
+
+}
+
+#about .in {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+#about .in img {
+    width: 100%;
+    height: 100%;
+}
+
+#about .in .area {
+    display: none;
+}
+
+#about .in .data {
+    position: absolute;
+    top: 18%;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    background-color: rgb(218, 83, 15);
+}
+
+#about .in .data h2 {
+    margin-top: 30px;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+#about .in .data div {
+    margin: 0 auto;
+    width: 90%;
+    height: 60%;
+}
+
+#about .in .data li {
+    float: left;
+    width: 29%;
+    height: 230px;
+    margin-right: 1%;
+}
+
+
+#about .in .data .txtbox {
+    width: 100%;
+    height: 40px;
+    border-bottom: 4px solid white;
+}
+
+#about .in .data .txtbox h4 {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+#about .in .data li p {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+
+
+
+
+/*뉴스*/
+#contents {
+    width: 100%;
+    height: 700px;
+}
+
+#contents .conh {
+    width: 100%;
+    height: 120px;
+}
+
+#contents .conh h2 {
+    padding-top: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#contents .conb {
+    padding-top: 30px;
+    width: 100%;
+    height: 500px;
+    background-color: #c3cef1;
+}
+
+#contents .news {
+    margin: 0 auto;
+    width: 70%;
+    height: 400px;
+}
+
+#contents .news ul {
+    display: block;
+}
+
+#contents .news li {
+    float: left;
+    width: 50%;
+    height: 180px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+
+#contents .news li div {
+    width: 100%;
+    height: 100%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+
+#contents .news li h3 {
+    font-size: 15px;
+}
+
+#contents .news li p {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.9vw;
+    color: rgb(92, 104, 116);
+    font-weight: 500;
+}
+
+#contents .news li span {
+    font-size: 0.9vw;
+}
+
+
+
+#contents .area {
+    display: none;
+}
+
+
+#contents .area button {
+    display: none;
+}
+
+
+
+
+
+
+/*인포*/
+
+#info {
+    width: 100%;
+    height: 650px;
+}
+
+#info_in {
+    width: 70%;
+    height: 550px;
+    margin: 0 auto;
+}
+
+
+#info_in li {
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+#info_in .contact img {
+    width: 100%;
+}
+
+#info_in .contact .btn1 {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #0F0E30;
+    opacity: 0.9;
+}
+
+
+#info_in .btn1 p {
+    float: right;
+    padding: 15px 30px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#info_in .employ img {
+    width: 100%;
+}
+
+#info_in .employ .btn2 {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #0F0E30;
+    opacity: 0.9;
+}
+
+#info_in .btn2 p {
+    float: right;
+    padding: 15px 20px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+#info_in .contact img:hover {
+    display: none;
+}
+
+
+#info_in .employ img:hover {
+    display: none;
+}
+
+
+
+
+/*하단*/
+#footer {
+    width: 100%;
+    height: 600px;
+    background-color: #0D2060;
+}
+
+#footer_in {
+    margin: 0 auto;
+    width: 80%;
+    height: 600px;
+}
+
+#footer_h {
+    width: 100%;
+    height: 100px;
+    border-bottom: transparent;
+}
+
+#footer_h .info {
+    width: 100%;
+
+}
+
+#footer_h li {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer_h li a {
+    font-size: 15px;
+    color: white;
+}
+
+#footer_h .site {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+}
+
+#footer_h .site a {
+    font-size: 18px;
+    color: white;
+}
+
+#footer_b {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+}
+
+#footer_b .address {
+    float: left;
+    width: 100%;
+    height: 250px;
+}
+
+#footer_b .address address {
+    margin-top: 40px;
+    font-size: 14.8px;
+    color: white;
+    line-height: 40px;
+}
+
+#footer_b .address p {
+    margin-top: 50px;
+    font-size: 12px;
+    color: white;
+}
+
+#footer_b .logo {
+    margin-top: 70px;
+    width: 40%;
+    height: 100px;
+}
+
+#footer_b img {
+    width: 100%;
 }

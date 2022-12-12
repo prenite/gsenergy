@@ -21,10 +21,11 @@
 #header {
     position: relative;
     width: 100%;
-    height: 6.25vw; 
+    height: 6.25vw;
     background-color: #0D2060;
-    opacity: 0.7;
 }
+
+
 
 #header_in {
     position: absolute;
@@ -81,14 +82,14 @@
     color: white;
 }
 
-#header_in .group{
+#header_in .group {
     display: none;
 }
 
 
 #main_in .box {
     position: absolute;
-    top: 26vw;
+    top: 28vw;
     left: 25%;
     width: 48vw;
     height: 20vw;
@@ -120,6 +121,44 @@
     color: white;
 }
 
+
+
+
+/*풀다운 메뉴*/
+
+#main_in .mn_area {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 230px;
+    background-color: #D1D0CE;
+    overflow: hidden;
+}
+
+#main_in .mn_in {
+    margin-top: 10px;
+    margin-left: 22vw;
+    width: 37vw;
+    height: 200px;
+}
+
+#main_in .mn_in .sub {
+    float: left;
+    width: 23%;
+    margin-right: 0.5vw;
+}
+
+#main_in .mn_in li {
+    margin-top: 20px;
+}
+
+#main_in .mn_in li a {
+    font-size: 17px;
+    color: #333;
+    font-weight: 600;
+}
 
 
 
@@ -158,8 +197,10 @@
 #business_b .in li {
     float: left;
     width: 50%;
-    height: 20vw; /*380*/
+    height: 20vw;
+    /*380*/
     position: relative;
+    overflow: hidden;
 }
 
 #business_b .in li img {
@@ -171,6 +212,7 @@
 #business_b .in li img:hover {
     transition: all 0.4s;
     filter: brightness(0.4);
+    transform: scale(1.5);
 }
 
 #business_b .in li h3 {
@@ -256,7 +298,7 @@
 
 #about .in .data .txtbox {
     width: 100%;
-    height: 4.16vw; 
+    height: 4.16vw;
     border-bottom: 4px solid white;
 }
 
@@ -465,9 +507,6 @@ button:hover .button {
     height: 80vh;
 }
 
-#info_in>div {
-    margin-top: 30%;
-}
 
 #info_in li {
     float: left;

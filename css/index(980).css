@@ -58,29 +58,29 @@
 /*뉴스*/
 #contents {
     width: 100%;
-    height: 110vh;
+    height: 100vh;
 }
 
 #contents .conh {
     width: 100%;
-    height: 18vw;
+    height: 20.4vw;
 }
 
 #contents .conh h2 {
-    padding-top: 11vw;
+    padding-top: 10vw;
     text-align: center;
-    font-size: 2.3vw;
+    font-size: 40px;
     color: black;
 }
 
 #contents .conb {
     width: 100%;
-    height: 48vw;
+    height: 47vw;
     background-color: #c3cef1;
 }
 
 #contents .news {
-    padding-top: 2vw;
+    padding-top: 2.6vw;
     margin: 0 auto;
     width: 85%;
     height: 32vw;
@@ -238,21 +238,27 @@ button:hover .button {
 
 #info_in {
     margin: 0 auto;
-    width: 70%;
+    width: 50%;
     height: 100vh;
 }
 
 #info_in>div {
     margin-top: 0;
-    height: 100vh;
 }
 
+#info_in ul {
+    width: 100%;
+    height: 80vw;
+}
 
 #info_in li {
-    margin: 0 auto;
+    float: left;
     width: 100%;
-    height: 40vw;
+    height: 35vw;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #info_in .contact img {
@@ -267,7 +273,6 @@ button:hover .button {
     width: 100%;
     height: 40vw;
     background-color: transparent;
-    display: none;
 }
 
 
@@ -291,7 +296,6 @@ button:hover .button {
     width: 100%;
     height: 40vw;
     background-color: transparent;
-    display: none;
 }
 
 #info_in .btn2 p {
@@ -326,4 +330,8 @@ button:hover .button {
     margin: 0 auto;
     width: 95%;
     height: 400px;
+}
+
+#footer_h .info {
+    width: 650px;
 }
