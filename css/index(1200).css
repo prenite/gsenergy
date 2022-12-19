@@ -15,10 +15,28 @@
     height: 100px;
 }
 
+#main_in .box {
+    display: none;
+}
+
+#main_in .boxin {
+    display: none;
+}
 
 
-#footer_in {
+
+
+
+
+.footer_h_in{
     margin: 0 auto;
     width: 95%;
-    height: 400px;
+    height: 100px;
+}
+
+
+#footer_b{
+    margin: 0 auto;
+    width: 95%;
+    height: 300px;
 }

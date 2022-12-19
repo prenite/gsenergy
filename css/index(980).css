@@ -1,5 +1,19 @@
 /*상단&메인*/
 
+
+#main_in .txtbox{
+    margin: 0 auto;
+    width: 60%;
+    height: 100px;
+    text-align: center;
+}
+
+#main_in .txtbox h4{
+    font-size: 35px;
+    color: white;
+}
+
+
 #main_in {
     width: 100%;
     height: 100vh;
@@ -123,107 +137,9 @@
 }
 
 
-#contents .area {
-    margin: 0 auto;
-    width: 300px;
-    height: 100px;
-}
 
 
-#contents .area button {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    outline: none;
-    border: 0;
-    vertical-align: middle;
-    text-decoration: none;
-    background: transparent;
-    padding: 0;
-    font-size: inherit;
-    font-family: inherit;
-}
 
-button.btn {
-    width: 100%;
-    height: auto;
-}
-
-button.btn .circle {
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    position: relative;
-    display: block;
-    margin: 0;
-    width: 60px;
-    height: 60px;
-    background: #0D2060;
-    border-radius: 30px;
-}
-
-button.btn .circle .icon {
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    background: #fff;
-}
-
-button.btn .circle .icon.arrow {
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    left: 11px;
-    /*0.625*/
-    width: 17px;
-    /*1.125rem*/
-    height: 0.125rem;
-    background: none;
-}
-
-button.btn .circle .icon.arrow::before {
-    position: absolute;
-    content: "";
-    top: -5px;
-    /*-0.27rem*/
-    right: -3px;
-    /*0.01*/
-    width: 12px;
-    /*0.625rem*/
-    height: 12px;
-    /*0.625rem*/
-    border-top: 0.125rem solid #fff;
-    border-right: 0.125rem solid #fff;
-    transform: rotate(45deg);
-}
-
-button.btn .button {
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 10px 0;
-    margin: 0 0 0 25px;
-    color: #0D2060;
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 1.6;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-button:hover .circle {
-    width: 100%;
-}
-
-button:hover .circle .icon.arrow {
-    background: #fff;
-    transform: translate(1rem, 0);
-}
-
-button:hover .button {
-    color: #fff;
-}
 
 
 
@@ -271,7 +187,7 @@ button:hover .button {
     top: 10vw;
     left: 0;
     width: 100%;
-    height: 40vw;
+    height: 15vw;
     background-color: transparent;
 }
 
@@ -294,7 +210,7 @@ button:hover .button {
     top: 10vw;
     left: 0;
     width: 100%;
-    height: 40vw;
+    height: 15vw;
     background-color: transparent;
 }
 
@@ -326,12 +242,14 @@ button:hover .button {
 
 /*하단*/
 
-#footer_in {
+#footer_h_in {
     margin: 0 auto;
     width: 95%;
-    height: 400px;
+    height: 100px;
 }
 
-#footer_h .info {
-    width: 650px;
+#footer_b {
+    margin: 0 auto;
+    width: 95%;
+    height: 300px;
 }

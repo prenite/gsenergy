@@ -21,7 +21,7 @@
 #header {
     position: relative;
     width: 100%;
-    height: 6.25vw;
+    height: 120px;
     background-color: #0D2060;
 }
 
@@ -48,7 +48,7 @@
 }
 
 #header_in .nav {
-    margin: 3.1vw 0 0 7.8vw;
+    margin: 3.1vw 0 0 17vw;
     float: left;
     width: 39vw;
     height: 30px;
@@ -62,6 +62,7 @@
 #header_in .nav li a {
     font-size: 1.3vw;
     color: white;
+    
 }
 
 
@@ -74,7 +75,7 @@
 
 #header_in .info li {
     float: left;
-    margin-right: 2.6vw;
+    margin-right: 1.5vw;
 }
 
 #header_in .info li a {
@@ -86,27 +87,40 @@
     display: none;
 }
 
+#main_in .txtbox{
+    margin: 0 auto;
+    width: 70%;
+    height: 100px;
+    text-align: center;
+}
+
+#main_in .txtbox h4{
+    font-size: 40px;
+    color: white;
+}
+
+
 
 #main_in .box {
     position: absolute;
-    top: 28vw;
+    top: 35vw;
     left: 25%;
     width: 48vw;
-    height: 20vw;
+    height: 16vw;
     background-color: #D1D0CE;
     opacity: 0.5;
 }
 
 #main_in .boxin {
     position: absolute;
-    top: 28.64vw;
+    top: 33vw;
     left: 30%;
     width: 38vw;
-    height: 19vw;
+    height: 16vw;
 }
 
 #main_in .boxin span {
-    font-size: 3.1vw;
+    font-size: 2.8vw;
     /*60*/
     font-weight: 600;
 }
@@ -115,10 +129,11 @@
     margin-top: 2vw;
     width: 35vw;
     /*650*/
-    height: 10vh;
-    font-size: 1vw;
+    height: 8vh;
+    font-size: 0.9vw;
     line-height: 2.6vw;
     color: white;
+   
 }
 
 
@@ -139,24 +154,25 @@
 
 #main_in .mn_in {
     margin-top: 10px;
-    margin-left: 22vw;
+    margin-left: 32vw;
     width: 37vw;
     height: 200px;
 }
 
 #main_in .mn_in .sub {
     float: left;
-    width: 23%;
-    margin-right: 0.5vw;
+    width: 21%;
+    margin-right: 1.2vw;
 }
 
 #main_in .mn_in li {
     margin-top: 20px;
+
 }
 
 #main_in .mn_in li a {
     font-size: 17px;
-    color: #333;
+    color: rgb(78, 78, 78);
     font-weight: 600;
 }
 
@@ -339,15 +355,15 @@
 
 #contents .conb {
     width: 100%;
-    height: 650px;
+    height: 680px;
     background-color: #c3cef1;
 }
 
 #contents .news {
-    padding-top: 50px;
+    padding-top: 10px;
     margin: 0 auto;
     width: 85%;
-    height: 550px;
+    height: 500px;
 }
 
 #contents .news ul {
@@ -376,10 +392,12 @@
 
 #contents .news li h3 {
     font-size: 1.2vw;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
 }
 
 #contents .news li p {
-    margin-top: 60px;
+    margin-top: 40px;
     margin-bottom: 30px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -395,9 +413,10 @@
 
 #contents .area {
     margin: 0 auto;
-    width: 300px;
+    width: 230px;
     height: 100px;
 }
+
 
 
 #contents .area button {
@@ -426,7 +445,7 @@ button.btn .circle {
     margin: 0;
     width: 60px;
     height: 60px;
-    background: #0D2060;
+    background: #7487c7;
     border-radius: 30px;
 }
 
@@ -468,7 +487,7 @@ button.btn .button {
     bottom: 0;
     padding: 10px 0;
     margin: 0 0 0 25px;
-    color: #0D2060;
+    color: #7487c7;
     font-size: 25px;
     font-weight: 700;
     line-height: 1.6;
@@ -557,9 +576,10 @@ button:hover .button {
 #info_in .btn2 p {
     float: right;
     padding: 4.1vw 5vw;
-    font-size: 2vw;
+    font-size: 1.8vw;
     color: #fff;
     font-weight: 600;
+    line-height: 3.5vw;
 }
 
 
@@ -572,7 +592,7 @@ button:hover .button {
 
 #info_in .employ img:hover {
     width: 100%;
-    transition: all 0.3s;
+    transition: all 0.4s;
     filter: brightness(0.5);
 }
 
@@ -583,20 +603,20 @@ button:hover .button {
 /*하단*/
 #footer {
     width: 100%;
-    height: 400px;
+    height: 450px;
     background-color: #0D2060;
-}
-
-#footer_in {
-    margin: 0 auto;
-    width: 1200px;
-    height: 400px;
 }
 
 #footer_h {
     width: 100%;
     height: 100px;
     border-bottom: 1px solid #D1D0CE;
+}
+
+.footer_h_in{
+    margin: 0 auto;
+    width: 1200px;
+    height: 100px;
 }
 
 #footer_h .info {
@@ -625,33 +645,39 @@ button:hover .button {
     color: white;
 }
 
+#footer_b{
+    margin: 0 auto;
+    width: 1200px;
+    height: 300px;
+}
 
 #footer_b .address {
     float: left;
-    width: 36.4vw;
-    height: 250px;
+    width: 100%;
+    height: 130px;
 }
 
 #footer_b .address address {
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 0.9vw;
     color: white;
     line-height: 40px;
 }
 
 #footer_b .address p {
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 0.83vw;
     color: white;
 }
 
 #footer_b .logo {
+    float: left;
     margin-top: 80px;
-    float: right;
-    width: 12.5vw;
+    width: 10vw;
     height: 100px;
 }
 
 #footer_b img {
     width: 100%;
 }
+
