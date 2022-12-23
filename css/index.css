@@ -36,7 +36,7 @@
 }
 
 #header_in .logo {
-    margin-top: 2vw;
+    margin-top: 1.8vw;
     margin-left: 5.2vw;
     float: left;
     width: 10vw;
@@ -48,7 +48,7 @@
 }
 
 #header_in .nav {
-    margin: 3.1vw 0 0 17vw;
+    margin: 2.8vw 0 0 17vw;
     float: left;
     width: 39vw;
     height: 30px;
@@ -62,7 +62,7 @@
 #header_in .nav li a {
     font-size: 1.3vw;
     color: white;
-    
+
 }
 
 
@@ -87,14 +87,15 @@
     display: none;
 }
 
-#main_in .txtbox{
+#main_in .txtbox {
+    padding-top: 5%;
     margin: 0 auto;
     width: 70%;
     height: 100px;
     text-align: center;
 }
 
-#main_in .txtbox h4{
+#main_in .txtbox h4 {
     font-size: 40px;
     color: white;
 }
@@ -133,7 +134,7 @@
     font-size: 0.9vw;
     line-height: 2.6vw;
     color: white;
-   
+
 }
 
 
@@ -177,6 +178,12 @@
 }
 
 
+
+/*모바일 메뉴*/
+
+.group {
+    display: none;
+}
 
 
 
@@ -613,7 +620,7 @@ button:hover .button {
     border-bottom: 1px solid #D1D0CE;
 }
 
-.footer_h_in{
+.footer_h_in {
     margin: 0 auto;
     width: 1200px;
     height: 100px;
@@ -645,7 +652,7 @@ button:hover .button {
     color: white;
 }
 
-#footer_b{
+#footer_b {
     margin: 0 auto;
     width: 1200px;
     height: 300px;
@@ -680,4 +687,3 @@ button:hover .button {
 #footer_b img {
     width: 100%;
 }
-
